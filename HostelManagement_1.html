@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tellakula Ramaiah Chetty Charities Hostel</title>
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+     <!-- Material Theme CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-components-web/4.0.0/material-components-web.min.css">
+ 
+     <style>
+         /* Custom styles can be added here */
+         .header-banner {
+            background-image: url("path/to/your/banner-image.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 200px;
+        }
+    
+     </style>
+</head>
+<body>
+     <!-- Header -->
+     <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="header-banner"></div>
+            <a class="navbar-brand" href="#">Tellakula Ramaiah Chetty Charities Hostel</a>
+        </nav>
+    </header>
+    <div class="container mt-4">
+        <h2>Hostel Application for Admission</h2>
+
+        <!-- Rest of the form content -->
+        <form>
+            <!-- Applicant Details -->
+            <label for="applicantName">Name of applicant in full:</label>
+            <input type="text" id="applicantName" name="applicantName">
+    
+            <label for="dateOfBirth">Date of Birth:</label>
+            <input type="date" id="dateOfBirth" name="dateOfBirth">
+    
+            <label for="fatherGuardianName">Name of Father/Guardian:</label>
+            <input type="text" id="fatherGuardianName" name="fatherGuardianName">
+    
+            <label for="fatherGuardianOccupation">Occupation of Father/Guardian:</label>
+            <input type="text" id="fatherGuardianOccupation" name="fatherGuardianOccupation">
+    
+            <label for="familyIncome">Annual income of the family:</label>
+            <input type="text" id="familyIncome" name="familyIncome">
+    
+            <label for="permanentAddress">Permanent address with contact number & email id:</label>
+            <textarea id="permanentAddress" name="permanentAddress"></textarea>
+    
+            <!-- Academic Details -->
+            <!-- Add academic details here -->
+    
+            <!-- Hostel Details -->
+            <!-- Add hostel details here -->
+    
+            <!-- Health Details -->
+            <label for="ailments">Does the applicant have any ailments? State briefly:</label>
+            <textarea id="ailments" name="ailments"></textarea>
+    
+            <label for="freeHostelFacility">Did the applicant avail any free hostel facility earlier?</label>
+            <input type="radio" id="yes" name="freeHostelFacility" value="yes">
+            <label for="yes">Yes</label>
+            <input type="radio" id="no" name="freeHostelFacility" value="no">
+            <label for="no">No</label>
+    
+            <!-- Facilities -->
+            <h3>Facilities:</h3>
+            <p>1. Accommodation: Twin sharing room furnished</p>
+            <p>2. Food: Breakfast (Carry away Lunch) & Dinner</p>
+            <p>3. Common Washrooms & Toilets</p>
+    
+            <!-- Undertaking -->
+            <h3>Undertaking:</h3>
+            <p>I hereby state that the above information furnished by me is true and to the best of my knowledge. In case if found incorrect, the hostel management has all right to rusticate and penalize me.</p>
+            <label for="applicantSignature">Signature of Applicant:</label>
+            <input type="text" id="applicantSignature" name="applicantSignature">
+    
+            <!-- Enclosures -->
+            <h3>Enclosures:</h3>
+            <ol>
+                <li>Two passport size photos</li>
+                <li>Address proof</li>
+                <li>Aadhar of ward and parents</li>
+                <li>Mark's card of previous exams</li>
+                <li>Admission to the academic year with fee paid receipt</li>
+                <li>Medical certificate if applicable</li>
+            </ol>
+    
+            <!-- Certification & Endorsement -->
+            <h3>Certification & Endorsement:</h3>
+            <p>I, the undersigned, to the best of my knowledge, have known the applicant and his parents/guardian for the last ____ years. The applicant is needy and deserves free hostel facility extended by your trust.</p>
+            <label for="certifierSignature">Signature with seal:</label>
+            <input type="text" id="certifierSignature" name="certifierSignature">
+    
+            <!-- Undertaking by Parent/Guardian -->
+            <h3>Undertaking by Parent/Guardian:</h3>
+            <p>I have also read and understood the rules and regulations of the hostel, and I assure that my son will abide. In case of non-compliance, I am aware that it will attract disciplinary action and may even result in expulsion from the hostel.</p>
+            <label for="parentSignature">Signature of Parents:</label>
+            <input type="text" id="parentSignature" name="parentSignature">
+        </form>
+
+        <!-- Hostel Rules and Regulations -->
+        <h2>Hostel Rules and Regulations:</h2>
+        <ol>
+            <li>Boarder should read the rules and regulations before signing the application form (A copy of rules is available on request)</li>
+            <!-- Add more rules here -->
+        </ol>
+
+        <p>Non-compliance with the hostel rules will be dealt with strictly.</p>
+
+        <p>I agree that I have read and understood the rules and regulations and will abide by them. I undertake to comply in word and spirit.</p>
+        <label for="boarderSignature">Signature of Boarder:</label>
+        <input type="text" id="boarderSignature" name="boarderSignature">
+    </div>
+
+    
+
+    <!-- Hostel Rules and Regulations -->
+    <h2>Hostel Rules and Regulations:</h2>
+    <ol>
+        <li>Boarder should read the rules and regulations before signing the application form (A copy of rules is available on request)</li>
+        <!-- Add more rules here -->
+    </ol>
+
+    <p>Non-compliance with the hostel rules will be dealt with strictly.</p>
+
+    <p>I agree that I have read and understood the rules and regulations and will abide by them. I undertake to comply in word and spirit.</p>
+    <label for="boarderSignature">Signature of Boarder:</label>
+    <input type="text" id="boarderSignature" name="boarderSignature">
+
+     <!-- Footer -->
+     <footer class="page-footer bg-primary fixed-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>Office: No. 68, EbrahimSaheb Street, Bangalore - 560 001</p>
+                    <p>Hostel: No. 130 Veerapillai Street, Shivajinagar, Bangalore - 560 001</p>
+                </div>
+                <div class="col-md-6 text-md-right">
+                    <p>Date: ___________</p>
+                    <p>Signature of Applicant: ___________</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Add Bootstrap JS and jQuery (optional) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
